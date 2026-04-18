@@ -6,3 +6,5 @@ public enum FormTypes
     Protocol,
     Claim
 }
+public int BossRage = 0;
+public FormTypes CorrectForm;
