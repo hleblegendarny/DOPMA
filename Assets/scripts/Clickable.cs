@@ -14,6 +14,7 @@ public class Clickable : MonoBehaviour
         foreach (Renderer obj in r) {
             mat = obj.material;
             mat.EnableKeyword("_EMISSION");
+            
         }
         
     }
