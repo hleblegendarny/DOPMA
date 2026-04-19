@@ -1,11 +1,11 @@
 using UnityEngine;
 public class Artifacts : MonoBehaviour
 {
-    public string[] Dialogues;
+    protected string[] Dialogues;
     public FormTypes ArtifactForm;
-    void Start()
+    void Awake()
     {
-        CorrectForm = ArtifactForm; // see Globals.cs
+        Globals.CorrectForm = ArtifactForm; // see Globals.cs
         // TODO: add Dialogue spawn
     }
 }

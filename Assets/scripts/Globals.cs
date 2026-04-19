@@ -1,3 +1,7 @@
+public static class Globals {
+    public static int BossRage = 0;
+    public static FormTypes CorrectForm;
+}
 public enum FormTypes
 {
     Complaint,
@@ -6,5 +10,3 @@ public enum FormTypes
     Protocol,
     Claim
 }
-public int BossRage = 0;
-public FormTypes CorrectForm;
