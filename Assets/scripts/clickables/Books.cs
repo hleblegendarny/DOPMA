@@ -1,7 +1,7 @@
 using UnityEngine;
-public class Books : MonoBehaviour
+class Books : MonoBehaviour
 {
-    public void RunAction()
+    protected void RunAction()
     {
         Debug.Log("Works!");
     }

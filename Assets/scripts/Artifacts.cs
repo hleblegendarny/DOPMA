@@ -2,7 +2,7 @@ using UnityEngine;
 public class Artifacts : MonoBehaviour
 {
     protected string[] Dialogues;
-    public FormTypes ArtifactForm;
+    protected FormTypes ArtifactForm;
     void Awake()
     {
         Globals.CorrectForm = ArtifactForm; // see Globals.cs

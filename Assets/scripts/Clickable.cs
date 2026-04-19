@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-class Clickable : MonoBehaviour
+public class Clickable : MonoBehaviour
 {
     private Renderer[] r;
     private Material mat;

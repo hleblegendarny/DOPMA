@@ -1,6 +1,6 @@
-public class Teapot : Artifacts
+class Teapot : Artifacts
 {
-    public Teapot(){
+    protected Teapot(){
         base.ArtifactForm = FormTypes.Complaint;
         base.Dialogues = new[] {""};
     }
