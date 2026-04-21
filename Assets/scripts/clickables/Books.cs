@@ -1,8 +1,9 @@
 using UnityEngine;
-class Books : MonoBehaviour
+class Books : Clickable
 {
-    protected void RunAction()
+    protected override void OnMouseDown()
     {
-        Debug.Log("Works!");
+        if(base.IsDialogue()) return;
+        Globals.IsFormFilled = true;
     }
 }
