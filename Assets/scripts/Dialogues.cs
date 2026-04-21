@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 public class Dialogues : MonoBehaviour
 {
@@ -52,6 +53,7 @@ public class Dialogues : MonoBehaviour
         {
             Globals.IsDialogueActive = false;
             StopAllCoroutines();
+            if(SceneManager.GetActiveScene().name == "BossOffice")Globals.SwapScene("MainMenu");
             Destroy(ArtefactRelated);
             transform.root.gameObject.SetActive(false);
         }

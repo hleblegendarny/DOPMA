@@ -444,7 +444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b94c1195cc9272d99a82df3df77782b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ArtifactForm: 0
+  ArtifactForm: 1
   Names:
   - Bloomy
   - Romeo
