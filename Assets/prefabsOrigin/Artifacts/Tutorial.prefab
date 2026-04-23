@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4463245550835295258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6411402167945764787}
+  - component: {fileID: 1499933101960810050}
+  m_Layer: 0
+  m_Name: Tutorial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6411402167945764787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463245550835295258}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.74373597, y: 6.1936088, z: -1.0582868}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1499933101960810050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463245550835295258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b94c1195cc9272d99a82df3df77782b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ArtifactForm: 1
+  Names:
+  - The Tutorialus
+  Lines:
+  - Phew! You must have thought long and hard before letting me in.
+  - And you know I'm your teacher, Tutorialus Invisiblehonius!
+  - Ahem. Anyway.
+  - Take the forms, those green books on the top right. Not now! Let me finish!
+  - Read the forms carefully and select Transfer to resolve my complaint as a Magical
+    Artifact.
+  - You know... It's hard to remember a magical artifact you can't see...
+  - After that, a whole bunch of disgruntled artifacts will be waiting for you outside
+    the door.
+  - Be on your guard! It's quite difficult to figure out what their requests are,
+    but I think you'll get it after a couple of tries!
+  - They won't fire you on your first day, will they? Haha!
+  - 'And so. Briefly again. '
+  - Open the door, listen to the complaint, fill out the form, and so on, get it?
+  - "Remember \u2014 my form is Transfer!"
+  - Well. I'm off. Good luck!
