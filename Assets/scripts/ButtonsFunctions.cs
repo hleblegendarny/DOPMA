@@ -3,6 +3,8 @@ using UnityEngine.SceneManagement;
 public class ButtonsFunctions : MonoBehaviour
 {
     public void Exit(){
+        Door audio = FindObjectOfType<Door>();
+        audio.audioSource.Play();
         transform.root.gameObject.SetActive(false);
     }
     public void Complaint(){

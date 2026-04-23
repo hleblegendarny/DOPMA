@@ -51,11 +51,15 @@ public class Dialogues : MonoBehaviour
         }
         else
         {
-            Globals.IsDialogueActive = false;
+            Dismiss();
+        }
+    }
+    public void Dismiss()
+    {
+        Globals.IsDialogueActive = false;
             StopAllCoroutines();
             if(SceneManager.GetActiveScene().name == "BossOffice")Globals.SwapScene("MainMenu");
             Destroy(ArtefactRelated);
             transform.root.gameObject.SetActive(false);
-        }
     }
 }

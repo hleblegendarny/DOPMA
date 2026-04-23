@@ -5,9 +5,11 @@ public class Clickable : MonoBehaviour
 {
     protected Renderer[] r;
     protected Material mat;
+    public AudioSource audioSource;
     void Start()
     {
         r = GetComponentsInChildren<Renderer>();
+        audioSource = GetComponent<AudioSource>();
     }
     protected bool IsDialogue()
     {

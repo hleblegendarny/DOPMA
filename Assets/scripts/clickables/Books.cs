@@ -4,7 +4,7 @@ class Books : Clickable
     protected override void OnMouseDown()
     {
         if(base.IsDialogue()) return;
-
+        audioSource.Play();
         AssignFormsPrefab();
         Globals.FormsPrefab.SetActive(true);
     }
